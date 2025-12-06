@@ -1,0 +1,22 @@
+[
+  {
+    "id": "sm",
+    "name": "Small",
+    "basePrice": 20.0
+  },
+  {
+    "id": "md",
+    "name": "Medium",
+    "basePrice": 30.0
+  },
+  {
+    "id": "lg",
+    "name": "Large",
+    "basePrice": 40.0
+  },
+  {
+    "id": "xl",
+    "name": "Extra Large",
+    "basePrice": 55.0
+  }
+]
