@@ -27,7 +27,7 @@ To start the backend server, run:
 pnpm start
 ```
 
-The backend will be available at [http://localhost:3000](http://localhost:3000) by default.
+The backend will be available at [http://localhost:3001](http://localhost:3001) by default.
 
 ## ⚠️ Any Known Limitations
 
