@@ -1,5 +1,5 @@
 import { Controller, Get } from '@nestjs/common';
-import ingredients from 'db/ingredients.json';
+import ingredients from '../../db/ingredients.json';
 
 @Controller('ingredients')
 export class IngredientsController {

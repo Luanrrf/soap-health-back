@@ -4,9 +4,9 @@ import {
   NotFoundException,
 } from '@nestjs/common';
 
-import sizesJson from 'db/sizes.json';
-import ingredientsJson from 'db/ingredients.json';
-import pizzasJson from 'db/pizzas.json';
+import sizesJson from '../../db/sizes.json';
+import ingredientsJson from '../../db/ingredients.json';
+import pizzasJson from '../../db/pizzas.json';
 
 import type { Size, Ingredient, Pizza } from './types';
 import type { CreatePizzaDto } from './dto/create-pizza.dto';

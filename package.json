@@ -52,15 +52,31 @@
     "typescript-eslint": "^8.20.0"
   },
   "jest": {
+    "coveragePathIgnorePatterns": [
+      "/node_modules/",
+      "/dist/",
+      "main.ts"
+    ],
     "moduleFileExtensions": [
       "js",
       "json",
       "ts"
     ],
     "rootDir": "src",
-    "testRegex": ".*\\.spec\\.ts$",
+    "testRegex": ".*\\.(spec|test)\\.ts$",
     "transform": {
       "^.+\\.(t|j)s$": "ts-jest"
+    },
+    "moduleNameMapper": {
+      "^db/(.*)$": "<rootDir>/../db/$1"
+    },
+    "coverageThreshold": {
+      "global": {
+        "branches": 75,
+        "functions": 100,
+        "lines": 100,
+        "statements": 100
+      }
     },
     "collectCoverageFrom": [
       "**/*.(t|j)s"
