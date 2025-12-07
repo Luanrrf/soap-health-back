@@ -5,6 +5,16 @@
     "extraPrice": 4.0
   },
   {
+    "id": "tomato",
+    "name": "tomato",
+    "extraPrice": 2.0
+  },
+  {
+    "id": "cream cheese",
+    "name": "cream cheese",
+    "extraPrice": 5.5
+  },
+  {
     "id": "pepperoni",
     "name": "pepperoni",
     "extraPrice": 5.0
@@ -13,16 +23,6 @@
     "id": "bacon",
     "name": "bacon",
     "extraPrice": 6.0
-  },
-  {
-    "id": "cream cheese",
-    "name": "cream cheese",
-    "extraPrice": 5.5
-  },
-  {
-    "id": "tomato",
-    "name": "tomato",
-    "extraPrice": 2.0
   },
   {
     "id": "onion",

@@ -13,10 +13,5 @@
     "id": "lg",
     "name": "Large",
     "basePrice": 40.0
-  },
-  {
-    "id": "xl",
-    "name": "Extra Large",
-    "basePrice": 55.0
   }
 ]
